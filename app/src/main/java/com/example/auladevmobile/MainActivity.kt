@@ -19,10 +19,11 @@ class MainActivity : AppCompatActivity() {
         btcad.setOnClickListener{
             telaCad()
         }
-        val btlink : Button = findViewById(R.id.btlink)
-        btlink.setOnClickListener(){
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uninassau.edu.br/")))
+        val btsobre : Button = findViewById(R.id.btabout)
+        btcad.setOnClickListener{
+            telaSobre()
         }
+
 
     }
     //criando funções para abriri novas activities
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
     private fun telaCad(){
         val cadastro = Intent (this,CadActivity::class.java)
         startActivity(cadastro)
+    }
+    private fun telaSobre(){
+        val sobre = Intent (this,AboutActivity::class.java)
+        startActivity(sobre)
     }
 
 }
