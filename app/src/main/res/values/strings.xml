@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">AulaDevMobile</string>
     <string name="login">LOGIN</string>
+    <string name="institui_o">INSTITUIÇãO</string>
+    <string name="desenvolvedores">Desenvolvedores</string>
+    <string name="josu_silva">Josué Silva</string>
+    <string name="sobre">Sobre</string>
+    <string name="vers_o">Versão</string>
+    <string name="_0_0_1">0.0.1</string>
+    <string name="andreza_miranda">Andreza Miranda</string>
+    <string name="todo">TODO</string>
+    <string name="_0_0_1_beta">0.0.1(Beta)</string>
 </resources>

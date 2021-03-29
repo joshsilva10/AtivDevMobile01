@@ -11,7 +11,7 @@ class AboutActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_about)
 
-        val btlink : Button = findViewById(R.id.btabout)
+        val btlink : Button = findViewById(R.id.btlink)
         btlink.setOnClickListener(){
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uninassau.edu.br/")))
         }
