@@ -13,7 +13,7 @@ class CadActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cad)
         val butCad : Button = findViewById(R.id.bt_ConfirmarCad)
-
+        //gerando evento do butão
         butCad.setOnClickListener{
             val endereco = findViewById(R.id.editTextEndereco) as EditText
             val cep = findViewById(R.id.editTextCEP) as EditText
@@ -25,7 +25,7 @@ class CadActivity : AppCompatActivity() {
 
 
 
-            //validar campos do formulario obrigatórios
+            //validando campos do formulario obrigatórios
             if (TextUtils.isEmpty(nome.text)){
                 Toast.makeText(this,"Endereço não digitado",Toast.LENGTH_LONG).show()
             }

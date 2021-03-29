@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        //gerando eventos com os butões
         val btlogin : Button = findViewById(R.id.bt_login)
         btlogin.setOnClickListener{
             telaLogin()
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
+    //criando funções para abriri novas activities
     private fun telaLogin(){
         val login = Intent (this,LoginActivity::class.java)
         startActivity(login)
